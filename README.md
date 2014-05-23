@@ -1,5 +1,5 @@
-# What is CartoDB? #
-
+# What is CartoDB?
+Test
 [![Build Status](http://travis-ci.org/CartoDB/cartodb.png)]
 (http://travis-ci.org/CartoDB/cartodb)
 [![Code Climate](https://codeclimate.com/github/CartoDB/cartodb20.png)](https://codeclimate.com/github/CartoDB/cartodb20)
@@ -66,20 +66,20 @@ and code.
 
 # How do I install CartoDB? #
 
-This is README is intended for Ubuntu 12.04. This doesn't mean that it can't 
-be installed in other Linux versions or OSX systems, but that it's guaranteed 
+This is README is intended for Ubuntu 12.04. This doesn't mean that it can't
+be installed in other Linux versions or OSX systems, but that it's guaranteed
 to work only in Ubuntu 12.04.
-If anyone wants to share with us the installation process for any other system 
+If anyone wants to share with us the installation process for any other system
 we will be more than happy to point it from this README.
 That said, there are also many successful installations on Amazon EC2, Linode,
 dedicated instances and development machines running OS X and Ubuntu 12.04+.
 
-CartoDB is under heavy development. This means that at some point this README 
-can fail at some point. If you detect it, please let us know and we will fix 
-it as soon as we can. Also if you feel that something is wrong or even it's 
+CartoDB is under heavy development. This means that at some point this README
+can fail at some point. If you detect it, please let us know and we will fix
+it as soon as we can. Also if you feel that something is wrong or even it's
 missing we will be also happy to fix it.
 
-For any doubt about the process you can ask in our [Google 
+For any doubt about the process you can ask in our [Google
 Group](https://groups.google.com/forum/#!forum/cartodb)
 
 If you want to give it a try, download CartoDB by cloning this repository:
@@ -260,7 +260,7 @@ The tiler API and the SQL API are both [Node.js](http://nodejs.org) apps.
 sudo apt-get install nodejs npm
 ```
 
-We currently run our node apps against version 0.8.x. You can install NVM 
+We currently run our node apps against version 0.8.x. You can install NVM
 to handle multiple versions in the same system:
 
 ```bash
@@ -320,14 +320,14 @@ sudo apt-get install varnish
 
 ## Install Mapnik ##
 [Mapnik](http://mapnik.org) is an API for creating beautiful maps.
-CartoDB uses Mapnik for creating and styling map tiles. 
+CartoDB uses Mapnik for creating and styling map tiles.
 
 ```bash
 sudo apt-get install libmapnik-dev python-mapnik mapnik-utils
 ```
 
 ## Install CartoDB SQL API ##
-The [CartoDB SQL API](https://github.com/CartoDB/CartoDB-SQL-API) 
+The [CartoDB SQL API](https://github.com/CartoDB/CartoDB-SQL-API)
 component powers the SQL queries over HTTP. To install it:
 
 ```bash
